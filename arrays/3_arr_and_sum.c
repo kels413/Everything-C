@@ -35,7 +35,8 @@ size_t i;
     {
         /* code */
         arr3[i]  = arr[i] + arr2[i];
-    
+
+
 
     }
 
