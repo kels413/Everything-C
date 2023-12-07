@@ -1,15 +1,15 @@
 #include <stdio.h>
-
-// reversing an array in c 
+#include <stdint.h>
+// reversing an array in c
 int main(void) {
 
-    int i;
+    size_t i;
 
     int array[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-    int array_size = sizeof(array) / sizeof(array[0]);
+    size_t array_size = sizeof(array) / sizeof(array[0]);
 
 
-    for (i = array_size - 1; i  >= 0 ; i--)
+    for (i = array_size - 1; i != SIZE_MAX ; i--)
     {
         /* code */
         printf("{%d}",array[i]);
