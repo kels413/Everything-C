@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define max 500 if max > 500 \
+                    printf("this is greater")
+
 /*Drivers Code*/
 int main(void)
 {
