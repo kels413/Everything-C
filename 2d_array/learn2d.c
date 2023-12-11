@@ -26,6 +26,7 @@ int main(void)
 
             printf("[%d]\t", array2d[i][j]);
         }
+        
         printf("\n");
     }
     return 0;
